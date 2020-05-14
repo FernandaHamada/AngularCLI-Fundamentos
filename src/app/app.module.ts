@@ -9,7 +9,7 @@ import { PhotosModule } from './photos/photos.module';
     AppComponent
   ],
   imports: [
-    BrowserModule, // tras recursos do angular usado no navegador
+    BrowserModule, // traz recursos do angular usado no navegador
     PhotosModule
   ],
   providers: [],
