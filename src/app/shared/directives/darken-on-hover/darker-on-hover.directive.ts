@@ -7,7 +7,7 @@ export class DarkenOnHoverDirective{
 
     
 
-    constructor(private el: ElementRef, private render: Renderer){
+    constructor(private el: ElementRef, private render: Renderer){ //manipulação do DOM por meio do Renderer, que nos blinda de termos que trabalhar no DOM
     }
 
     @HostListener('mouseover')
