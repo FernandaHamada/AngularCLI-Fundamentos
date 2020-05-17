@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import { PhotosModule } from './photos/photos.module';
 import { AppRoutingModule } from './app.routing.module';
 import { ErrorsModule } from './errors/errors.module';
-import { HomeModule } from './home/home.module';
 import { CoreModule } from './core/core.module';
 
 
@@ -17,10 +16,9 @@ import { CoreModule } from './core/core.module';
     // traz recursos do angular usado no navegador, e possui funcionalidades essenciais para rodar e iniciar a aplicação
     BrowserModule, 
     PhotosModule,
-    AppRoutingModule,
     ErrorsModule,
-    HomeModule,
-    CoreModule
+    CoreModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
